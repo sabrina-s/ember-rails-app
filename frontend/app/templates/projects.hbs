@@ -1,6 +1,15 @@
-Hello World
+<div class="jumbotron text-center">
+  <h1>Hello!</h1>
+  <p>Here are my projects.</p>
+</div>
 
 {{#each model as |project|}}
-  {{project.title}}
-  {{project.description}}
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      {{project.title}}
+    </div> 
+    <div class="panel-body">
+      {{project.description}}
+    </div>
+  </div>
 {{/each}}
