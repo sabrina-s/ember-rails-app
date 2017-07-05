@@ -56,3 +56,4 @@ gem 'ember-cli-rails'
 gem 'active_model_serializers'
 
 gem 'rails_12factor', group: [:staging, :production]
+gem 'devise'
