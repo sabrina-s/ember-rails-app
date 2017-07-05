@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  root to: 'api/projects#index'
+  root to: 'admin/projects#index'
   devise_for :admins
-  
+
   namespace :api do
     resources :projects, only: [:index]
   end

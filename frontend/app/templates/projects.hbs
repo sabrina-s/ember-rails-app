@@ -6,7 +6,7 @@
 {{#each model as |project|}}
   <div class="panel panel-info">
     <div class="panel-heading">
-      {{project.title}}
+      <a href={{project.url}}>{{project.title}}</a>
     </div> 
     <div class="panel-body">
       {{project.description}}
